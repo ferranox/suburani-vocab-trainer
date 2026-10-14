@@ -228,6 +228,12 @@ kbd {
 
 main { display: block; max-width: 1040px; margin: 0 auto; padding: 1.25rem 1rem 2rem; }
 main:focus { outline: none; }
+.app-footer {
+  max-width: 1040px; margin: 0 auto;
+  padding: 1rem 1rem calc(1.25rem + env(safe-area-inset-bottom, 0px));
+  text-align: center; color: var(--muted); font-size: .85rem;
+}
+.app-footer p { margin: 0; }
 
 .screen-title { font-family: var(--font-latin); font-size: clamp(1.7rem, 1.2rem + 2vw, 2.4rem); }
 .subtitle { color: var(--muted); margin: .5rem 0 0; max-width: 46rem; }
