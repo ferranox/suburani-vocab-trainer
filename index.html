@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Offline flashcards and practice for the Latin vocabulary of Suburani Books 1–3 (800 words).">
+  <meta name="referrer" content="no-referrer">
+  <title>Suburani Latin Vocabulary Trainer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    /* Apply the saved theme before first paint to avoid a flash. */
+    (function () {
+      try {
+        var saved = JSON.parse(window.localStorage.getItem('suburani-vocab-trainer:v1') || '{}');
+        var t = saved && saved.settings && saved.settings.theme;
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* storage unavailable – ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="app-header">
+    <div class="app-header-inner">
+      <button type="button" class="brand" id="brand-btn" title="Home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-text">Suburani <span class="brand-sub">Vocabulary</span><span class="sr-only"> – home</span></span>
+      </button>
+      <button type="button" class="icon-btn" id="settings-btn" aria-label="Settings" aria-haspopup="dialog" title="Settings">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ===================== HOME ===================== -->
+    <section id="screen-home" class="screen" aria-labelledby="home-title">
+      <div class="hero">
+        <h1 id="home-title" class="screen-title" tabindex="-1">Suburani Latin Vocabulary</h1>
+        <p class="subtitle">Books 1–3 · Chapters 1–40 · 800 words. Choose your chapters, then learn with flashcards or test yourself.</p>
+      </div>
+
+      <div class="selection-toolbar">
+        <h2 class="section-label">Choose chapters</h2>
+        <div class="toolbar-buttons">
+          <button type="button" class="btn small" id="select-all-btn">Select all</button>
+          <button type="button" class="btn small" id="clear-btn">Clear</button>
+        </div>
+      </div>
+
+      <div id="books"></div>
+
+      <div class="action-bar">
+        <div class="action-bar-inner">
+          <p class="selection-summary" id="selection-summary" aria-live="polite">No chapters selected</p>
+          <div class="action-buttons">
+            <button type="button" class="btn primary big" id="learn-btn" aria-describedby="action-hint">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>
+              Learn
+            </button>
+            <button type="button" class="btn secondary big" id="practise-btn" aria-describedby="action-hint">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              Practise
+            </button>
+          </div>
+          <p class="action-hint" id="action-hint">Select at least one chapter to start.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LEARN ===================== -->
+    <section id="screen-learn" class="screen" aria-labelledby="learn-title" hidden>
+      <div class="screen-toolbar">
+        <button type="button" class="btn ghost small" data-go-home>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg>
+          Home
+        </button>
+        <h1 id="learn-title" class="toolbar-title" tabindex="-1">Flashcards</h1>
+        <button type="button" class="btn toggle small" id="learn-shuffle" aria-pressed="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          Shuffle
+        </button>
+      </div>
+
+      <div class="progress-row">
+        <div class="progress" aria-hidden="true"><div class="progress-bar" id="learn-bar"></div></div>
+        <span class="progress-text" id="learn-progress" aria-live="off">1 / 1</span>
+      </div>
+
+      <div class="card-stage" id="card-stage">
+        <button type="button" class="nav-arrow" id="learn-prev" aria-label="Previous card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-roledescription="flashcard" aria-describedby="flashcard-help">
+          <div class="flashcard-inner">
+            <div class="face face-front" id="face-front">
+              <span class="chapter-tag" id="front-chapter">Ch 1</span>
+              <div class="face-content" id="front-content"></div>
+              <span class="face-hint" aria-hidden="true">Tap to flip</span>
+            </div>
+            <div class="face face-back" id="face-back" aria-hidden="true">
+              <span class="chapter-tag" id="back-chapter">Ch 1</span>
+              <div class="face-content" id="back-content"></div>
+              <span class="face-hint" aria-hidden="true">Tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="nav-arrow" id="learn-next" aria-label="Next card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+      <p class="sr-only" id="flashcard-help">Press Space or Enter to flip. Left and right arrow keys move between cards.</p>
+      <p class="sr-only" id="learn-live" aria-live="polite"></p>
+
+      <div class="learn-end" id="learn-end" hidden>
+        <p class="learn-end-title">You’ve reached the end</p>
+        <div class="learn-end-buttons">
+          <button type="button" class="btn" id="learn-restart">Restart</button>
+          <button type="button" class="btn" id="learn-end-shuffle">Shuffle</button>
+          <button type="button" class="btn primary" id="learn-practise">Practise these words</button>
+          <button type="button" class="btn ghost" data-go-home>Home</button>
+        </div>
+      </div>
+
+      <p class="kbd-hint" aria-hidden="true"><kbd>←</kbd> <kbd>→</kbd> move · <kbd>Space</kbd> flip · <kbd>Esc</kbd> home · swipe on touch screens</p>
+    </section>
+
+    <!-- ===================== PRACTISE ===================== -->
+    <section id="screen-practise" class="screen" aria-labelledby="practise-title" hidden>
+      <div class="screen-toolbar">
+        <h1 id="practise-title" class="toolbar-title" tabindex="-1">Practise</h1>
+        <div class="progress-row grow">
+          <div class="progress" role="progressbar" id="practise-progressbar" aria-label="Words completed" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0"><div class="progress-bar" id="practise-bar"></div></div>
+          <span class="progress-text" id="practise-progress">0 / 0 words</span>
+        </div>
+        <button type="button" class="btn ghost small" id="end-session-btn">End session</button>
+      </div>
+
+      <div class="question-card" id="question-card">
+        <p class="q-meta" id="q-meta"></p>
+        <p class="q-instruction" id="q-instruction"></p>
+        <div class="q-prompt" id="q-prompt"></div>
+        <div class="q-body" id="q-body"></div>
+        <div class="q-feedback" id="q-feedback" aria-live="polite"></div>
+        <div class="q-next-row">
+          <button type="button" class="btn primary big" id="next-btn" hidden>
+            Next
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <p class="kbd-hint" id="practise-kbd-hint" aria-hidden="true"></p>
+    </section>
+
+    <!-- ===================== RESULTS ===================== -->
+    <section id="screen-results" class="screen" aria-labelledby="results-title" hidden>
+      <div class="results">
+        <h1 id="results-title" class="screen-title" tabindex="-1">Session complete</h1>
+        <p class="subtitle" id="results-subtitle"></p>
+        <div class="stats">
+          <div class="stat"><span class="stat-value" id="stat-completed">0</span><span class="stat-label">words completed</span></div>
+          <div class="stat"><span class="stat-value" id="stat-accuracy">–</span><span class="stat-label">first-try accuracy</span></div>
+          <div class="stat"><span class="stat-value" id="stat-questions">0</span><span class="stat-label">questions asked</span></div>
+        </div>
+        <h2 class="section-label" id="missed-title">Words to review</h2>
+        <ul class="missed-list" id="missed-list" aria-labelledby="missed-title"></ul>
+        <p class="no-missed" id="no-missed" hidden>No mistakes – excellent work!</p>
+        <div class="results-buttons">
+          <button type="button" class="btn primary" id="practise-missed-btn">Practise missed words</button>
+          <button type="button" class="btn" id="new-session-btn">New session (same chapters)</button>
+          <button type="button" class="btn" id="change-chapters-btn">Change chapters</button>
+          <button type="button" class="btn ghost" data-go-home>Home</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== SETTINGS ===================== -->
+  <div class="modal-overlay" id="settings-overlay" hidden>
+    <div class="modal" id="settings-dialog" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <div class="modal-header">
+        <h2 id="settings-title">Settings</h2>
+        <button type="button" class="icon-btn" id="settings-close-x" aria-label="Close settings">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <form class="modal-body" id="settings-form" novalidate>
+        <p class="settings-note">Changes are saved automatically. During practice they apply from the next question.</p>
+
+        <fieldset class="setting">
+          <legend>Question direction</legend>
+          <label class="check"><input type="checkbox" name="dirLaEn"> <span>Latin → English</span></label>
+          <label class="check"><input type="checkbox" name="dirEnLa"> <span>English → Latin</span></label>
+          <p class="setting-lock" id="lock-dir" hidden>At least one direction must stay on. Tick the other one first to switch.</p>
+        </fieldset>
+
+        <fieldset class="setting">
+          <legend>Question types</legend>
+          <label class="check"><input type="checkbox" name="typeMc"> <span>Multiple choice</span></label>
+          <label class="check"><input type="checkbox" name="typeTyped"> <span>Typed answers</span></label>
+          <p class="setting-lock" id="lock-type" hidden>At least one question type must stay on. Tick the other one first to switch.</p>
+        </fieldset>
+
+        <fieldset class="setting">
+          <legend>Typed-answer strictness</legend>
+          <label class="radio"><input type="radio" name="strictness" value="lenient"> <span><strong>Lenient</strong><small>More typos allowed; word endings like -s/-ing/-ed ignored in English.</small></span></label>
+          <label class="radio"><input type="radio" name="strictness" value="normal"> <span><strong>Normal</strong><small>Small typos allowed in longer words; one right answer is enough.</small></span></label>
+          <label class="radio"><input type="radio" name="strictness" value="strict"> <span><strong>Strict</strong><small>Exact spelling, dictionary form only, every answer you type must be right.</small></span></label>
+        </fieldset>
+
+        <fieldset class="setting">
+          <legend>Macrons</legend>
+          <label class="check"><input type="checkbox" name="requireMacrons"> <span>Require macrons in typed Latin <small>(ā ē ī ō ū must be exactly right)</small></span></label>
+        </fieldset>
+
+        <div class="setting">
+          <label class="setting-label" for="set-session-size">Words per practise session</label>
+          <select id="set-session-size" name="sessionSize">
+            <option value="all">All selected words</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+
+        <fieldset class="setting">
+          <legend>Flashcard front side</legend>
+          <div class="segmented">
+            <label class="radio"><input type="radio" name="frontSide" value="latin"> <span>Latin</span></label>
+            <label class="radio"><input type="radio" name="frontSide" value="english"> <span>English</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="setting">
+          <legend>Flashcard order</legend>
+          <label class="check"><input type="checkbox" name="shuffle"> <span>Shuffle flashcards</span></label>
+        </fieldset>
+
+        <fieldset class="setting">
+          <legend>Theme</legend>
+          <div class="segmented">
+            <label class="radio"><input type="radio" name="theme" value="system"> <span>System</span></label>
+            <label class="radio"><input type="radio" name="theme" value="light"> <span>Light</span></label>
+            <label class="radio"><input type="radio" name="theme" value="dark"> <span>Dark</span></label>
+          </div>
+        </fieldset>
+      </form>
+      <div class="modal-footer">
+        <button type="button" class="btn ghost" id="settings-reset">Reset to defaults</button>
+        <button type="button" class="btn primary" id="settings-close">Close</button>
+      </div>
+      <p class="sr-only" id="settings-live" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <noscript><p class="noscript">This trainer needs JavaScript. Please enable it and reload the page.</p></noscript>
+
+  <script src="data/vocab.js"></script>
+  <script src="js/checker.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/learn.js"></script>
+  <script src="js/practise.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

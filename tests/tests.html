@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checker tests – Suburani Vocabulary Trainer</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 2rem auto; max-width: 60rem; padding: 0 1rem; line-height: 1.45; }
+    h1 { font-size: 1.5rem; }
+    #summary { font-size: 1.15rem; font-weight: 700; padding: .75rem 1rem; border-radius: 10px; }
+    #summary.pass { background: #e2f2e8; color: #1d6f45; }
+    #summary.fail { background: #fbe5e2; color: #a82a20; }
+    label { display: inline-flex; gap: .4rem; margin: .5rem 0 1rem; }
+    ol { padding-left: 1.5rem; font-size: .92rem; }
+    li.pass { color: #1d6f45; }
+    li.fail { color: #a82a20; font-weight: 600; }
+    .detail { display: block; font-weight: 400; color: #555; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .85rem; }
+    body.hide-pass li.pass { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Answer checker tests</h1>
+  <p id="summary" role="status">Running…</p>
+  <label><input type="checkbox" id="only-failures"> Show failures only</label>
+  <ol id="results"></ol>
+
+  <script src="../data/vocab.js"></script>
+  <script src="../js/checker.js"></script>
+  <script src="checker-tests.js"></script>
+  <script>
+    (function () {
+      var list = document.getElementById('results');
+      var res = window.Trainer.CheckerTests.run(window.Trainer.Checker, window.VOCAB, function (pass, name, detail) {
+        var li = document.createElement('li');
+        li.className = pass ? 'pass' : 'fail';
+        li.textContent = (pass ? '✓ ' : '✗ ') + name;
+        if (!pass && detail) {
+          var d = document.createElement('span');
+          d.className = 'detail';
+          d.textContent = detail;
+          li.appendChild(d);
+        }
+        list.appendChild(li);
+      });
+      var s = document.getElementById('summary');
+      s.textContent = res.passed + ' passed, ' + res.failed + ' failed';
+      s.className = res.failed ? 'fail' : 'pass';
+      document.getElementById('only-failures').addEventListener('change', function (e) {
+        document.body.classList.toggle('hide-pass', e.target.checked);
+      });
+    })();
+  </script>
+</body>
+</html>

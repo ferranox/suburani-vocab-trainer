@@ -1,0 +1,889 @@
+## Appendix A – Vocabulary data (source of truth)
+## Format: `Latin entry :: English meaning(s)` (optionally `:: accept=…`).
+## Lines starting with "##" are comments. "# Chapter N" starts a chapter.
+
+### BOOK 1
+
+# Chapter 1
+dormiō :: I sleep
+ego :: I
+frāter :: brother
+hōra :: hour
+in :: in, on
+īnsula :: block of flats
+labōrō :: I work
+legō :: I read
+meus :: my
+nōn :: not
+pater :: father
+rīdeō :: I laugh, smile
+servus :: slave, enslaved person (male)
+tū :: you (singular)
+turba :: crowd
+ubi? :: where?
+via :: street, road, way
+sum :: I am
+es :: you (singular) are
+est :: he/she/it is
+
+# Chapter 2
+cadō :: I fall
+cibus, cibum m. :: food
+dūcō :: I lead, take
+et :: and
+fīlia, fīliam f. :: daughter
+fīlius, fīlium m. :: son
+forum, forum n. :: forum, marketplace
+habeō :: I have, hold
+habitō :: I live
+intrō :: I enter
+magnus :: big, large, great
+pecūnia, pecūniam f. :: money, sum of money
+quaerō :: I search for, look for, ask
+quoque :: also, too
+salūtō :: I greet
+sed :: but
+spectō :: I look at, watch
+videō :: I see
+vīnum, vīnum n. :: wine
+vocō :: I call
+
+# Chapter 3
+ambulō :: I walk
+amīcus, amīcum m. :: friend
+ancilla, ancillam f. :: slave, enslaved person (female)
+clāmō :: I shout
+clāmor, clāmōrem m. :: shout, shouting, noise
+cum :: with
+currō :: I run
+dīcō :: I say, speak, tell
+equus, equum m. :: horse
+festīnō :: I hurry
+gladius, gladium m. :: sword
+īnfēlīx :: unlucky, unhappy
+laetus :: happy
+multus :: much, many
+omnis :: all, every
+per :: through, along
+prīmus :: first
+senātor, senātōrem m. :: senator
+urbs, urbem f. :: city
+vincō :: I conquer, win, am victorious
+
+# Chapter 4
+ad :: to, towards, at
+adsum :: I am here, I am present
+deus, deum m. :: god
+dominus, dominum m. :: master
+dōnum, dōnum n. :: gift, present
+laudō :: I praise
+nōs :: we, us
+parvus :: small
+perīculum, perīculum n. :: danger
+perterritus :: terrified
+puella, puellam f. :: girl
+quod :: because
+rēx, rēgem m. :: king
+Rōmānus :: Roman
+subitō :: suddenly
+templum, templum n. :: temple
+teneō :: I hold, keep, possess
+tollō :: I raise, lift up, hold up
+veniō :: I come
+vōs :: you (plural)
+
+# Chapter 5
+aqua, aquam f. :: water
+audiō, audīre :: hear, listen to
+cupiō, cupere :: want, desire
+custōs, custōdem m.f. :: guard
+dēbeō, dēbēre :: owe
+dō, dare :: give
+effugiō, effugere :: escape
+iuvenis, iuvenem m.f. :: young person
+maneō, manēre :: remain, stay
+nēmō, nēminem :: no one, nobody
+nōlō, nōlle :: don't want, refuse
+nox, noctem f. :: night
+portō, portāre :: carry, bear, take
+possum, posse :: can, am able
+pulcher :: beautiful, handsome
+respondeō, respondēre :: reply
+taceō, tacēre :: am silent, am quiet
+timeō, timēre :: fear, am afraid
+vendō, vendere :: sell
+volō, velle :: want, wish, am willing
+
+# Chapter 6
+ā, ab + abl. :: from, away from :: accept=ab
+capiō, capere :: take, catch, capture, adopt (a plan)
+diēs, diem m. :: day
+discēdō, discēdere :: depart, leave
+ē, ex + abl. :: from, out of :: accept=ex
+exspectō, exspectāre :: wait for, expect
+faciō, facere :: make, do
+iam :: now, already
+in + acc. :: into, onto
+inquit :: says
+marītus, marītum m. :: husband
+māter, mātrem f. :: mother
+prope + acc. :: near
+rogō, rogāre :: ask, ask for
+sedeō, sedēre :: sit
+stō, stāre :: stand
+tōtus :: whole
+trīstis :: sad
+tuus :: your (singular), yours
+uxor, uxōrem f. :: wife
+
+# Chapter 7
+appropinquō, appropinquāre, appropinquāvī :: approach, come near to
+cūr? :: why?
+epistula, epistulam f. :: letter
+homō, hominem m. :: man, person
+ingēns :: huge
+īnsula, īnsulam f. :: island, block of flats
+mīles, mīlitem m. :: soldier
+minimē :: no
+narrō, narrāre, narrāvī :: tell, relate
+nauta, nautam m. :: sailor
+nunc :: now
+ōlim :: once, sometime ago
+pars, partem f. :: part
+puer, puerum m. :: boy
+pugnō, pugnāre, pugnāvī :: fight
+rēs, rem f. :: thing, story
+saepe :: often
+silva, silvam f. :: wood, forest
+tum :: then
+vehementer :: loudly, violently, strongly
+
+# Chapter 8
+agō, agere, ēgī :: do
+bibō, bibere, bibī :: drink
+cōnspiciō, cōnspicere, cōnspexī :: catch sight of, notice
+dē + abl. :: from, down from, about
+domus, domum f. :: house, home
+eam :: her, it
+eum :: him, it
+gerō, gerere, gessī :: wear
+iaceō, iacēre, iacuī :: lie down
+incendō, incendere, incendī :: burn, set on fire
+mox :: soon
+nihil :: nothing
+noster :: our
+porta, portam f. :: gate
+postquam :: after
+praecēdō, praecēdere, praecessī :: go along, proceed
+senex, senem m.f. :: old person
+surgō, surgere, surrēxī :: get up
+tandem :: at last, finally
+trāns + acc. :: across
+
+# Chapter 9
+adveniō, advenīre, advēnī :: arrive
+cīvis, cīvem m.f. :: citizen
+difficilis :: difficult
+domina, dominam f. :: mistress, lady
+gravis :: heavy, serious
+hostis, hostem m. :: enemy
+imperātor, imperātōrem m. :: emperor, general
+īrātus :: angry
+iter, iter n. :: journey, route, way
+lacrimō, lacrimāre, lacrimāvī :: cry, weep
+līberī, līberōs m. pl. :: children
+medius :: middle, middle of
+nūntius, nūntium m. :: messenger, message, news
+paucī pl. :: few, a few
+petō, petere, petīvī :: attack, seek, beg, ask for
+sanguis, sanguinem m. :: blood
+statim :: immediately, at once
+trādō, trādere, trādidī :: hand over, hand down
+vir, virum m. :: man
+vīta, vītam f. :: life
+
+# Chapter 10
+accipiō, accipere, accēpī :: accept, take in, receive
+alius, alia, aliud :: another, other
+annus, annum m. :: year
+bonus, bona, bonum :: good
+contrā + acc. :: against
+dea, deam f. :: goddess
+deinde :: then
+ferō, ferre, tulī :: bring, carry, bear
+fidēlis, fidēlis, fidēle :: loyal, faithful, trustworthy
+iaciō, iacere, iēcī :: throw
+locus, locum m. :: place
+miser, misera, miserum :: poor, unfortunate
+novus, nova, novum :: new
+nūllus, nūlla, nūllum :: no, not any
+occīdō, occīdere, occīdī :: kill
+pāx, pācem f. :: peace
+pereō, perīre, periī :: die, perish
+quam … ! :: how … !
+sacer, sacra, sacrum :: sacred, holy
+sub + acc. or abl. :: under, below, beneath
+
+# Chapter 11
+absum, abesse, āfuī :: am out, am absent, am away
+accidō, accidere, accidī :: happen
+altus, alta, altum :: high, deep
+bene :: well
+dux, ducis m. :: leader
+flūmen, flūminis n. :: river
+fortis, fortis, forte :: brave
+frūstrā :: in vain, without success
+fugiō, fugere, fūgī :: run away, flee
+hodiē :: today
+ibi :: there
+inveniō, invenīre, invēnī :: find
+itaque :: and so, therefore
+mare, maris n. :: sea
+nāvigō, nāvigāre, nāvigāvī :: sail
+nāvis, nāvis f. :: ship
+prō + abl. :: in front of, for
+saevus, saeva, saevum :: savage, cruel
+sōlus, sōla, sōlum :: alone, only, lonely, on one's own
+ubi :: where, when
+
+# Chapter 12
+caelum, caelī n. :: sky, heaven
+caput, capitis n. :: head
+corpus, corporis n. :: body
+crūdēlis, crūdēlis, crūdēle :: cruel
+dēleō, dēlēre, dēlēvī :: destroy
+diū :: for a long time
+iānua, iānuae f. :: door, doorway
+iterum :: again
+mittō, mittere, mīsī :: send
+offerō, offerre, obtulī :: offer
+quis? quid? :: who? what? :: accept=quis | quid
+redeō, redīre, rediī :: go back, come back, return
+Rōma, Rōmae f. :: Rome
+servō, servāre, servāvī :: save, protect, keep, look after
+stultus, stulta, stultum :: stupid, foolish
+superō, superāre, superāvī :: overcome, overpower
+taberna, tabernae f. :: shop, inn
+terra, terrae f. :: ground
+trahō, trahere, trāxī :: drag, draw, pull
+vōx, vōcis f. :: voice, shout
+
+# Chapter 13
+coepī :: began
+cōnsūmō, cōnsūmere, cōnsūmpsī :: consume, eat
+intellegō, intellegere, intellēxī :: understand, realize
+inter + acc. :: among, between
+ita vērō :: yes, absolutely
+labor, labōris m. :: work
+longus, longa, longum :: long
+mūrus, mūrī m. :: wall
+nōmen, nōminis n. :: name
+parō, parāre, parāvī :: prepare
+post + acc. :: after, behind
+praemium, praemiī n. :: prize, reward, profit
+quamquam :: although
+quī, quae, quod :: who, which
+quōmodo? :: how? in what way?
+semper :: always
+summus, summa, summum :: highest, greatest, top of
+suus, sua, suum :: her, his, its, their own
+tamen :: however
+vīvō, vīvere, vīxī :: live, am alive
+
+# Chapter 14
+amō, amāre, amāvī :: love, like
+amor, amōris m. :: love
+cōgitō, cōgitāre, cōgitāvī :: think, consider
+cōnficiō, cōnficere, cōnfēcī :: finish
+cōnsilium, cōnsiliī n. :: plan, idea, advice
+cōnstituō, cōnstituere, cōnstituī :: decide
+dīrus, dīra, dīrum :: dreadful
+eōs :: them
+fēmina, fēminae f. :: woman
+mōns, montis m. :: mountain
+mors, mortis f. :: death
+nec :: and not, nor, neither
+nec … nec … :: neither … nor …
+necō, necāre, necāvī :: kill
+nesciō, nescīre, nescīvī :: don't know
+numquam :: never
+ostendō, ostendere, ostendī :: show
+tempus, temporis n. :: time
+terreō, terrēre, terruī :: frighten
+verbum, verbī n. :: word
+
+# Chapter 15
+anteā :: before
+bellum, bellī n. :: war
+cēna, cēnae f. :: dinner, meal
+cēterī, cēterae, cētera pl. :: the rest, the others
+cognōscō, cognōscere, cognōvī :: get to know, find out, learn
+comes, comitis m.f. :: comrade, companion
+eō, īre, iī :: go
+etiam :: even, also
+ferōx, ferōcis :: fierce, ferocious
+hortus, hortī m. :: garden
+intereā :: meanwhile
+iubeō, iubēre, iussī :: order
+lībertus, lībertī m. :: freedman, former slave
+multum :: much
+nōnne? :: surely?
+nūntiō, nūntiāre, nūntiāvī :: announce, report
+putō, putāre, putāvī :: think
+sē :: himself, herself, itself, themselves
+simulatque :: as soon as
+vīlla, vīllae f. :: country house, house
+
+# Chapter 16
+ac :: and
+auferō, auferre, abstulī :: steal, carry off
+brevis, brevis, breve :: short, brief
+cēlō, cēlāre, cēlāvī :: hide
+hic, haec, hoc :: this, he, she, it
+ille, illa, illud :: that, he, she, it
+imperium, imperiī n. :: empire, power
+legō, legere, lēgī :: read, choose
+lūx, lūcis f. :: light, daylight
+ōrō, ōrāre, ōrāvī :: beg, beg for
+prīnceps, prīncipis m. :: chief, emperor
+quō? :: where to?
+rapiō, rapere, rapuī :: seize, grab
+rēgīna, rēgīnae f. :: queen
+resistō, resistere, restitī + dat. :: resist
+reveniō, revenīre, revēnī :: come back, return
+sciō, scīre, scīvī :: know
+sentiō, sentīre, sēnsī :: feel, notice
+sī :: if
+sine + abl. :: without
+
+### BOOK 2
+
+# Chapter 17
+appāreō, appārēre, appāruī :: appear
+benignus, benigna, benignum :: kind, generous
+dūrus, dūra, dūrum :: hard, harsh
+emō, emere, ēmī, ēmptus :: buy
+et :: even, also; and
+hūc :: here, to this place
+igitur :: therefore, and so
+is, ea, id :: this, that; he, she, it, them
+lentus, lenta, lentum :: slow
+libenter :: willingly, gladly
+līberō, līberāre, līberāvī, līberātus :: free, set free
+oppugnō, oppugnāre, oppugnāvī, oppugnātus :: attack
+paene :: almost, nearly
+plēnus, plēna, plēnum :: full
+praebeō, praebēre, praebuī, praebitus :: provide
+prō + abl. :: for, in return for; in front of
+quam + superlative :: as … as possible
+relinquō, relinquere, relīquī, relictus :: leave, leave behind
+sōl, sōlis, m. :: sun
+unda, undae, f. :: wave
+
+# Chapter 18
+abeō, abīre, abiī :: go away, depart
+animus, animī, m. :: spirit, soul, mind
+aut … aut … :: either … or …
+crēdō, crēdere, crēdidī, crēditus + dat. :: believe, trust, have faith in
+eques, equitis, m. :: horseman; pl. = cavalry
+exeō, exīre, exiī :: come out of
+fēlīx, fēlīcis :: lucky, fortunate; happy
+heri :: yesterday
+legiō, legiōnis, f. :: legion
+licet, licēre, licuit :: it is allowed, one may
+malus, mala, malum :: bad, evil
+nam :: for
+necesse :: necessary
+perveniō, pervenīre, pervēnī :: arrive, reach
+placeō, placēre, placuī + dat. :: please
+prōmittō, prōmittere, prōmīsī, prōmissus :: promise
+quam :: than; how …? how …!
+scrībō, scrībere, scrīpsī, scrīptus :: write
+umbra, umbrae, f. :: shadow, shade; ghost
+vetus, veteris :: old
+
+# Chapter 19
+adferō, adferre, attulī, adlātus :: bring
+gerō, gerere, gessī, gestus :: wage (war); wear (clothes)
+lacrima, lacrimae, f. :: tear
+lentē :: slowly
+maximus, maxima, maximum :: very big, huge; biggest, greatest
+melior, melior, melius :: better
+mortuus, mortua, mortuum :: dead
+multō :: much, by much
+neque :: and not, nor, neither
+neque … neque … :: neither … nor …
+oculus, oculī, m. :: eye
+optimus, optima, optimum :: very good, excellent; best
+pōnō, pōnere, posuī, positus :: put, place, put up
+referō, referre, rettulī, relātus :: bring back, carry back; report, tell
+sīc :: so, in this way
+sīcut :: just as, like
+ut :: as
+vestīmentum, vestīmentī, n. :: item of clothing, garment; pl. = clothes
+vōtum, vōtī, n. :: prayer
+vulnus, vulneris, n. :: wound
+
+# Chapter 20
+ā, ab + abl. :: by; from, away from :: accept=ab
+adeō, adīre, adiī :: go to, approach
+agō, agere, ēgī, āctus :: act; drive, lead; do
+alter, altera, alterum :: the other, another, one of two, the second of two
+āmittō, āmittere, āmīsī, āmissus :: lose
+atque :: and
+audāx, audācis :: bold, daring
+dēbeō, dēbēre, dēbuī, dēbitus :: ought, should, must; owe
+enim :: for, because
+facilis, facilis, facile :: easy
+fuga, fugae, f. :: escape
+graviter :: heavily; seriously
+hīc :: here
+lībertās, lībertātis, f. :: freedom
+persuādeō, persuādēre, persuāsī, persuāsus + dat. :: persuade
+tēlum, tēlī, n. :: missile, weapon, spear
+vix :: scarcely, hardly, with difficulty
+ūnus, ūna, ūnum :: one
+duo, duae, duo :: two
+trēs, trēs, tria :: three
+
+# Chapter 21
+alius, alia, aliud :: else; other, another
+auris, auris, f. :: ear
+cōgō, cōgere, coēgī, coāctus :: force, compel
+forte :: by chance
+gaudium, gaudiī, n. :: joy, pleasure
+ignis, ignis, m. :: fire
+longē :: far off
+pēs, pedis, m. :: foot
+petō, petere, petīvī, petītus :: make for; attack; seek; beg, ask for
+poena, poenae, f. :: punishment
+poenās dō, dare, dedī, datus :: pay the penalty, am punished :: accept=poenās dare
+postrīdiē :: on the following day
+propter + acc. :: on account of, because of
+quot? :: how many?
+Rōmae :: at/in Rome
+tēctum, tēctī, n. :: roof
+tūtus, tūta, tūtum :: safe
+unde :: from where
+ventus, ventī, m. :: wind
+vester, vestra, vestrum :: your (plural), yours
+
+# Chapter 22
+adiuvō, adiuvāre, adiūvī, adiūtus :: help
+aliquis, aliquid :: someone, something
+aperiō, aperīre, aperuī, apertus :: open
+canis, canis, m. :: dog
+cōnor, cōnārī, cōnātus sum :: try
+cūra, cūrae, f. :: care, worry
+dīves, dīvitis :: rich
+ēgredior, ēgredī, ēgressus sum :: go out, leave
+hortor, hortārī, hortātus sum :: encourage, urge
+ingredior, ingredī, ingressus sum :: go into, enter
+loquor, loquī, locūtus sum :: speak, talk
+mīror, mīrārī, mīrātus sum :: wonder at, admire
+morior, morī, mortuus sum :: die
+patior, patī, passus sum :: suffer, endure
+precor, precārī, precātus sum :: pray, pray to
+proficīscor, proficīscī, profectus sum :: set out
+prōgredior, prōgredī, prōgressus sum :: go forward, advance
+proximus, proxima, proximum :: nearest, next to
+regredior, regredī, regressus sum :: go back, return
+sequor, sequī, secūtus sum :: follow
+
+# Chapter 23
+apud + acc. :: among, with, at the house of
+aurum, aurī, n. :: gold
+cārus, cāra, cārum :: dear; expensive
+celer, celeris, celere :: quick, fast
+cōnficiō, cōnficere, cōnfēcī, cōnfectus :: wear out, exhaust; finish
+cum + subj. :: when, since
+cūrō, cūrāre, cūrāvī, cūrātus :: look after, care for, supervise
+dum :: while
+maximē :: very much, a lot, very greatly
+minor, minor, minus :: smaller, less; younger
+num? :: surely not?
+parātus, parāta, parātum :: ready
+parēns, parentis, m.f. :: parent
+plūs, plūris :: more
+posteā :: afterwards
+quālis, quālis, quāle :: what sort of?
+quantus, quanta, quantum :: how big? how much?
+signum, signī, n. :: sign, signal; seal
+soror, sorōris, f. :: sister
+validus, valida, validum :: strong
+
+# Chapter 24
+addūcō, addūcere, addūxī, adductus :: lead to
+adeō :: so much, so greatly, to such an extent
+conveniō, convenīre, convēnī :: come together, gather, meet
+dēspērō, dēspērāre, dēspērāvī :: despair
+exercitus, exercitūs, m. :: army
+ita :: so, in this way
+manus, manūs, f. :: hand; group of people
+minimē :: very little, least; no
+mūtō, mūtāre, mūtāvī, mūtātus :: change
+opus, operis, n. :: work
+reddō, reddere, reddidī, redditus :: give back, restore
+saxum, saxī, n. :: rock
+spērō, spērāre, spērāvī, spērātus :: hope, expect
+tālis, tālis, tāle :: such, of such a kind
+tam :: so
+tantus, tanta, tantum :: so great, such a great, so much
+tot :: so many
+ut :: (+ subj.) that, so that, in order that; (+ indic.) as
+vērus, vēra, vērum :: true, real
+vultus, vultūs, m. :: expression, face
+
+# Chapter 25
+ante + acc. :: before, in front of
+domī :: at home
+faciēs, faciēī, f. :: face, appearance
+frangō, frangere, frēgī, frāctus :: break
+imperium, imperiī, n. :: command; empire; power
+imperō, imperāre, imperāvī, imperātus + dat. :: order, command
+lēgātus, lēgātī, m. :: commander, governor
+maior, maior, maius :: bigger, larger, greater
+mīlle, pl. mīlia :: thousand
+minimus, minima, minimum :: very small, tiny
+nē + subj. :: that … not, so that … not
+num :: whether; surely not?
+pāreō, pārēre, pāruī + dat. :: obey
+postulō, postulāre, postulāvī, postulātus :: demand
+rēs, reī, f. :: business, matter, event; thing; story
+scelestus, scelesta, scelestum :: wicked
+spēs, speī, f. :: hope
+trādō, trādere, trādidī, trāditus :: hand down; hand over
+umquam :: ever
+victōria, victōriae, f. :: victory
+
+# Chapter 26
+canō, canere, cecinī :: sing; play (an instrument)
+carmen, carminis, n. :: poem, song
+circum + acc. :: around
+fātum, fātī, n. :: fate, destiny; death
+īra, īrae, f. :: anger
+lātus, lāta, lātum :: wide, broad
+magnopere :: greatly, very much
+modus, modī, m. :: manner, way, kind, style
+peior, peior, peius :: worse
+pessimus, pessima, pessimum :: very bad, worst
+simulac :: as soon as
+vīvus, vīva, vīvum :: alive, living
+quattuor :: four
+quīnque :: five
+sex :: six
+septem :: seven
+octo :: eight
+novem :: nine
+decem :: ten
+centum :: a hundred
+
+# Chapter 27
+arbor, arboris, f. :: tree
+ars, artis, f. :: art, skill
+compōnō, compōnere, composuī, compositus :: arrange
+dexter, dextra, dextrum :: right
+doceō, docēre, docuī, doctus :: teach
+dolor, dolōris, m. :: pain
+dum :: (+ subj.) until; (+ indic.) while
+gaudeō, gaudēre, gāvīsus sum :: am pleased, rejoice
+impōnō, impōnere, imposuī, impositus :: put, put on
+ipse, ipsa, ipsum :: himself, herself, itself, themselves
+liber, librī, m. :: book
+metus, metūs, m. :: fear
+modo :: only
+moneō, monēre, monuī, monitus :: warn, advise
+pectus, pectoris, n. :: chest, breast
+prīmō :: at first
+soleō, solēre, solitus sum :: am accustomed, used
+tempestās, tempestātis, f. :: storm
+vīs, vim, f. :: force
+vulnerō, vulnerāre, vulnerāvī, vulnerātus :: wound, injure
+
+# Chapter 28
+adhūc :: still, until now
+ager, agrī, m. :: field
+ascendō, ascendere, ascendī :: climb
+autem :: but, however
+beātus, beāta, beātum :: happy, blessed
+cōpiae, cōpiārum, f. pl. :: forces, troops
+dēscendō, dēscendere, dēscendī :: go down, come down
+dulcis, dulcis, dulce :: sweet
+ergō :: therefore
+errō, errāre, errāvī :: make a mistake; wander
+incipiō, incipere, incēpī, inceptus :: begin, start
+nōnnūllī, nōnnūllae, nōnnūlla :: some, several
+quīdam, quaedam, quoddam :: one, a certain; pl. = some
+sapiēns, sapientis :: wise
+scelus, sceleris, n. :: crime
+super + acc. :: over
+temptō, temptāre, temptāvī, temptātus :: try
+terra, terrae, f. :: country; land, ground
+videor, vidērī, vīsus sum :: seem, appear
+virgō, virginis, f. :: virgin, girl, young woman
+
+# Chapter 29
+aedificō, aedificāre, aedificāvī, aedificātus :: build
+audeō, audēre, ausus sum :: dare
+clārus, clāra, clārum :: clear; famous, distinguished
+custōdiō, custōdīre, custōdīvī, custōdītus :: guard
+decet, decēre, decuit :: it is right for, it is proper for
+dēfendō, dēfendere, dēfendī, dēfēnsus :: defend
+dubitō, dubitāre, dubitāvī, dubitātus :: hesitate, doubt
+gēns, gentis, f. :: people, race, family, tribe
+honor, honōris, m. :: honour
+ingenium, ingeniī, n. :: nature, character
+interficiō, interficere, interfēcī, interfectus :: kill
+līber, lībera, līberum :: free
+moveō, movēre, mōvī, mōtus :: move
+nisi :: unless, except
+orbis, orbis, m. :: globe, sphere
+poscō, poscere, poposcī :: ask for, demand
+regō, regere, rēxī, rēctus :: rule
+similis, similis, simile :: similar, alike
+somnus, somnī, m. :: sleep
+ut :: (+ indic.) when, as soon as; as; (+ subj.) that, so that, in order that
+
+# Chapter 30
+addō, addere, addidī, additus :: add
+āra, ārae, f. :: altar
+captīvus, captīvī, m. :: captive, prisoner
+coma, comae, f. :: hair
+crās :: tomorrow
+discō, discere, didicī :: learn
+fīō, fierī, factus sum :: become
+iuvō, iuvāre, iūvī, iūtus :: help, assist
+negō, negāre, negāvī, negātus :: deny, say that … not
+nūmen, nūminis, n. :: deity, divine power
+opprimō, opprimere, oppressī, oppressus :: crush, overwhelm
+ōs, ōris, n. :: mouth
+pellō, pellere, pepulī, pulsus :: drive, push
+pūniō, pūnīre, pūnīvī, pūnītus :: punish
+quandō? :: when?
+simul :: at the same time
+solvō, solvere, solvī, solūtus :: undo, let go
+ūtor, ūtī, ūsus sum + abl. :: use, employ
+vertō, vertere, vertī, versus :: turn
+virtūs, virtūtis, f. :: courage, virtue
+
+# Chapter 31
+arma, armōrum, n. pl. :: arms, weapons
+caedēs, caedis, f. :: killing, slaughter
+castra, castrōrum, n. pl. :: camp
+cāsus, cāsūs, m. :: accident, chance
+causa, causae, f. :: reason
+cōnsul, cōnsulis, m. :: consul
+faveō, favēre, fāvī, fautus + dat. :: favour, support
+illīc :: there
+impetus, impetūs, m. :: charge, assault
+inimīcus, inimīcī, m. :: enemy
+invītō, invītāre, invītāvī, invītātus :: invite
+lītus, lītoris, n. :: shore, beach
+magis :: more; rather
+mālō, mālle, māluī :: prefer
+mēns, mentis, f. :: mind
+numerus, numerī, m. :: number
+patria, patriae, f. :: country, homeland
+proelium, proeliī, n. :: battle
+rēgnum, rēgnī, n. :: kingdom
+victor, victōris, m. :: winner
+
+# Chapter 32
+auxilium, auxiliī, n. :: help
+claudō, claudere, clausī, clausus :: close
+colō, colere, coluī, cultus :: worship
+dīligēns, dīligentis :: careful
+ecce! :: look! see!
+fīnis, fīnis, m. :: end
+flamma, flammae, f. :: flame; pl. = fire
+fortūna, fortūnae, f. :: fortune
+īdem, eadem, idem :: the same
+mōs, mōris, m. :: way, fashion, custom
+nōndum :: not yet
+populus, populī, m. :: people
+prīmum :: for the first time
+procul :: far off
+pūblicus, pūblica, pūblicum :: public
+Rōmānī, Rōmānōrum, m. pl. :: Romans
+satis :: enough
+senātus, senātūs, m. :: Senate
+ultimus, ultima, ultimum :: final; furthest
+valē! :: goodbye, farewell
+
+### BOOK 3
+
+# Chapter 33
+amīcitia, amīcitiae, f. :: friendship
+avis, avis, f. :: bird
+coniūnx, coniugis, m.f. :: wife, husband, partner
+fāma, fāmae, f. :: rumour, gossip, reputation
+imāgō, imāginis, f. :: image, picture; spirit
+inde :: then, next
+lūna, lūnae, f. :: moon
+mereō, merēre, meruī, meritus :: serve; deserve, earn
+moenia, moenium, n. pl. :: town walls
+mulier, mulieris, f. :: woman
+nascor, nascī, nātus sum :: be born
+nimium :: too (much)
+ōtium, ōtiī, n. :: leisure, free time; rest; idleness
+perdō, perdere, perdidī, perditus :: destroy, waste
+premō, premere, pressī, pressus :: press; suppress
+quisquis, quicquid/quidquid :: whoever, whatever, anyone who :: accept=quisquis | quicquid | quidquid
+salūs, salūtis, f. :: greeting; salvation, safety
+sinō, sinere, sīvī, situs :: allow
+tantum :: so much; only
+vacuus, vacua, vacuum :: empty
+
+# Chapter 34
+āēr, āeris, m. :: air
+aes, aeris, n. :: bronze
+aiō :: say
+amnis, amnis, m. :: stream, river
+at :: but
+campus, campī, m. :: plain, field
+condō, condere, condidī, conditus :: found, establish
+dēnique :: finally; in short
+dignus, digna, dignum + abl. :: worthy, deserving
+ferrum, ferrī, n. :: iron
+fessus, fessa, fessum :: tired
+nātus, nātī, m. :: son
+ops, opis, f. :: strength; help; pl. = wealth, resources
+sīdus, sīderis, n. :: star
+speciēs, speciēī, f. :: appearance
+tangō, tangere, tetigī, tāctus :: touch
+tellūs, tellūris, f. :: earth; land, country
+tener, tenera, tenerum :: soft, tender
+ūllus, ūlla, ūllum :: any, anyone
+vērō :: indeed, truly
+
+# Chapter 35
+agmen, agminis, n. :: column (of soldiers)
+aureus, aurea, aureum :: golden, made of gold
+careō, carēre, caruī, caritus + abl. :: be without, lack
+contingō, contingere, contigī, contactus :: happen, touch
+crēscō, crēscere, crēvī, crētus :: grow strong; increase
+dōnō, dōnāre, dōnāvī, dōnātus :: present
+exigō, exigere, exēgī, exāctus :: spend (time)
+familia, familiae, f. :: family, household
+haud :: not
+hospes, hospitis, m. :: guest, stranger; host
+līmen, līminis, n. :: threshold, entrance
+lūmen, lūminis, n. :: light, eye
+pauper, pauperis :: poor
+pudor, pudōris, m. :: shame, dishonour
+quā :: where
+quidem :: indeed, certainly
+sermō, sermōnis, m. :: conversation, talk
+sōlum :: only
+tegō, tegere, tēxī, tēctus :: cover, hide
+turpis, turpis, turpe :: disgraceful, unseemly
+
+# Chapter 36
+circā + acc. :: about, near to
+colligō, colligere, collēgī, collēctus :: collect, gather
+cōpia, cōpiae, f. :: abundance
+dēsum, dēesse, dēfuī + dat. :: be wanting, be lacking
+dīvidō, dīvidere, dīvīsī, dīvīsus :: separate
+ēripiō, ēripere, ēripuī, ēreptus :: snatch away
+fallō, fallere, fefellī, falsus :: cheat, deceive
+fidēs, fideī, f. :: trust, faith; promise
+genus, generis, n. :: type
+grātia, grātiae, f. :: esteem; thanks
+iste, ista, istud :: that; he, she, it
+littera, litterae, f. :: letter of the alphabet; pl. = letter
+nōtus, nōta, nōtum :: known, familiar
+prius :: before, previously
+quisque, quaeque, quidque :: each, every
+recipiō, recipere, recēpī, receptus :: bring back; regain
+regiō, regiōnis, f. :: region, area
+reliquus, reliqua, reliquum :: remaining
+sēdēs, sēdis, f. :: seat; home
+undique :: from everywhere; on all sides
+
+# Chapter 37
+aetās, aetātis, f. :: age
+anima, animae, f. :: soul, spirit
+aspiciō, aspicere, aspexī, aspectus :: look at, consider
+augeō, augēre, auxī, auctus :: increase
+aura, aurae, f. :: breeze
+cursus, cursūs, m. :: course
+dīvitiae, dīvitiārum, f. pl. :: riches, wealth
+fax, facis, f. :: torch
+gradus, gradūs, m. :: step
+iūs, iūris, n. :: right
+laus, laudis, f. :: praise, glory
+mollis, mollis, molle :: soft, tender
+ōrdō, ōrdinis, m. :: row
+prōsum, prōdesse, prōfuī + dat. :: do good
+quisquam, quicquam :: anyone, anything
+sānctus, sāncta, sānctum :: sacred; virtuous
+seu, sīve :: or; or if :: accept=sīve
+spatium, spatiī, n. :: space
+tamquam :: as if; just as
+vestis, vestis, f. :: item of clothing
+
+# Chapter 38
+argentum, argentī, n. :: silver
+arx, arcis, f. :: citadel
+certē :: certainly, clearly
+cūnctus, cūncta, cūnctum :: whole, all
+efficiō, efficere, effēcī, effectus :: effect, bring (something) about
+exemplum, exemplī, n. :: example
+famēs, famis, f. :: hunger; famine
+humus, humī, f. :: earth, soil
+magnitūdō, magnitūdinis, f. :: greatness, great amount
+mundus, mundī, m. :: world
+mūnus, mūneris, n. :: gift
+oppidum, oppidī, n. :: town
+optō, optāre, optāvī, optātus :: wish
+peccō, peccāre, peccāvī, peccātus :: sin, make a mistake
+pondus, ponderis, n. :: weight
+quārē :: why
+quia :: because
+ratiō, ratiōnis, f. :: reason
+singulus, singula, singulum :: one each; every
+velut :: as if, just like
+
+# Chapter 39
+adversus + acc. :: opposite, against
+ardeō, ardēre, arsī, arsus :: burn, am on fire
+extrēmus, extrēma, extrēmum :: final, last
+iungō, iungere, iūnxī, iūnctus :: join, link
+latus, lateris, n. :: side, flank
+levis, levis, leve :: light; gentle
+nemus, nemoris, n. :: wood, grove
+nōscō, nōscere, nōvī, nōtus :: get to know, know
+officium, officiī, n. :: duty, office
+pateō, patēre, patuī :: be open, lie open
+pecus, pecoris, n. :: herd, flock
+praestō, praestāre, praestitī, praestitus + dat. :: surpass
+quīcumque, quaecumque, quodcumque :: whoever, whatever
+quis, qua, quid :: anybody, anything
+rūrsus :: again
+sēcūrus, sēcūra, sēcūrum :: safe; free from care
+superus, supera, superum :: heavenly; above
+uterque, utraque, utrumque :: each (of two), both
+vel :: or
+vitium, vitiī, n. :: imperfection, fault
+
+# Chapter 40
+appellō, appellāre, appellāvī, appellātus :: call, name
+beneficium, beneficiī, n. :: kindness
+cēterum :: moreover
+cīvitās, cīvitātis, f. :: citizenship; state
+eō :: so, therefore
+fluctus, fluctūs, m. :: wave
+hinc :: from here
+iniūria, iniūriae, f. :: injury, insult
+membrum, membrī, n. :: limb
+occupō, occupāre, occupāvī, occupātus :: occupy, keep busy
+pār, paris :: equal
+quasi :: as if
+quīn :: indeed; why not; that; that … not; who … not
+rīpa, rīpae, f. :: bank (of a river)
+socius, sociī, m. :: ally, partner
+studium, studiī, n. :: study
+suscipiō, suscipere, suscēpī, susceptus :: receive
+ūsus, ūsūs, m. :: use
+valeō, valēre, valuī :: be well
+voluptās, voluptātis, f. :: pleasure
