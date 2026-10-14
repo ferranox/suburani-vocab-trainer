@@ -218,10 +218,8 @@ kbd {
 }
 .brand:hover { background: var(--surface-2); }
 .brand-mark {
-  display: grid; place-items: center;
-  width: 34px; height: 34px; border-radius: 10px;
-  background: var(--accent); color: var(--accent-text);
-  font-family: var(--font-latin); font-weight: 700; font-size: 1.15rem;
+  display: block; flex: none;
+  width: 36px; height: 36px; border-radius: 50%;
 }
 .brand-text { font-family: var(--font-latin); font-weight: 700; font-size: 1.1rem; letter-spacing: .01em; }
 .brand-sub { font-weight: 400; color: var(--muted); }
