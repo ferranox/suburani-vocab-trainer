@@ -67,20 +67,34 @@
     }).sort(function (a, b) { return a - b; });
   }
 
+  function sanitizeCollapsed(list) {
+    if (!Array.isArray(list)) return [];
+    var seen = {};
+    return list.map(Number).filter(function (n) {
+      if (!(n >= 1 && n <= 3) || seen[n]) return false;
+      seen[n] = 1;
+      return true;
+    }).sort(function (a, b) { return a - b; });
+  }
+
   var saved = readStorage() || {};
   var state = {
     settings: sanitizeSettings(saved.settings),
-    selection: sanitizeSelection(saved.selection)
+    selection: sanitizeSelection(saved.selection),
+    collapsedBooks: sanitizeCollapsed(saved.collapsedBooks)
   };
   var listeners = [];
 
-  function persist() { writeStorage({ settings: state.settings, selection: state.selection }); }
+  function persist() {
+    writeStorage({ settings: state.settings, selection: state.selection, collapsedBooks: state.collapsedBooks });
+  }
   function emit(what, key) { listeners.forEach(function (fn) { try { fn(what, key); } catch (e) { if (root.console) console.error(e); } }); }
 
   Trainer.State = {
     DEFAULTS: DEFAULTS,
     get settings() { return state.settings; },
     get selection() { return state.selection.slice(); },
+    get collapsedBooks() { return state.collapsedBooks.slice(); },
 
     setSetting: function (key, value) {
       if (!Object.prototype.hasOwnProperty.call(DEFAULTS, key)) return;
@@ -103,6 +117,13 @@
       state.selection = sanitizeSelection(chapters);
       persist();
       emit('selection');
+    },
+
+    setBookCollapsed: function (book, collapsed) {
+      var rest = state.collapsedBooks.filter(function (n) { return n !== book; });
+      if (collapsed) rest.push(book);
+      state.collapsedBooks = sanitizeCollapsed(rest);
+      persist();
     },
 
     onChange: function (fn) { listeners.push(fn); }

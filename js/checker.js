@@ -1,5 +1,5 @@
 /*
- * Suburani Vocabulary Trainer – answer checker.
+ * Suburani Vocab Trainer – answer checker.
  *
  * PURE functions only (no DOM, no randomness, no storage) so this file can be
  * loaded both by the browser (classic <script>, attaches to window.Trainer.Checker)

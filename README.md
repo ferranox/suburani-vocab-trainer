@@ -1,4 +1,4 @@
-# Suburani Latin Vocabulary Trainer
+# Suburani Vocab Trainer
 
 A small static website for learning the 800 Latin words in *Suburani* Books 1–3 (Chapters 1–40, 20 words each).
 It is plain HTML, CSS and JavaScript. There is no build step, nothing to install, and it makes no network requests.
@@ -24,7 +24,7 @@ suburani-vocab-trainer/
   data/vocab.js           GENERATED – window.VOCAB = [...800 entries...]
   js/checker.js           pure functions: normalising, parsing entries, answer checking (also loads in Node)
   js/data.js              builds the card database from window.VOCAB + small DOM helpers
-  js/state.js             settings + chapter selection, localStorage persistence (falls back to memory)
+  js/state.js             settings + chapter selection + collapsed books, localStorage persistence (falls back to memory)
   js/learn.js             flashcard mode
   js/practise.js          practise session queue, MC + typed questions, results
   js/app.js               screen routing, home screen, settings modal, keyboard handling

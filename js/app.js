@@ -121,11 +121,16 @@
       section.appendChild(grid);
       container.appendChild(section);
 
+      function setCollapsed(collapsed) {
+        toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+        grid.hidden = collapsed;
+        section.classList.toggle('is-collapsed', collapsed);
+      }
+      setCollapsed(S.collapsedBooks.indexOf(b.number) !== -1);
       toggle.addEventListener('click', function () {
-        var open = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
-        grid.hidden = open;
-        section.classList.toggle('is-collapsed', open);
+        var collapsed = toggle.getAttribute('aria-expanded') === 'true';
+        setCollapsed(collapsed);
+        S.setBookCollapsed(b.number, collapsed);
       });
       sel.addEventListener('click', function () {
         var chapters = D.chaptersOfBook(b.number);
